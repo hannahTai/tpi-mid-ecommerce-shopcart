@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://34.80.248.155:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+flyway:
+  url: jdbc:postgresql://34.80.248.155:5432/postgres
+  user: postgres
+  password: postgres
+client:
+  url:
+    goods: http://18.183.144.77:8080
+    order: http://18.183.144.77:8081
